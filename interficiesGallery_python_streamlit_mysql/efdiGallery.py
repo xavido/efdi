@@ -98,7 +98,7 @@ if st.session_state.start_chat:
         cur = conn.cursor()
 
         # Ejecuta una consulta SQL
-        sql = "SELECT * FROM teclaCOMIC WHERE tema = '99999'"
+        sql = "SELECT * FROM teclaCOMIC WHERE tema = '99999' AND url!='-'"
         cur.execute(sql)
 
         # Obtiene los resultados de la consulta
