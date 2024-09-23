@@ -38,7 +38,7 @@ texto_descripciones = ""
 headers = {
     "accept": "application/json",
     "content-type": "application/json",
-    "authorization": "Bearer eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_iEM00UFQrXjFxupiAr7ycYYG4CM"
+    "authorization": ""
 }
 
 
